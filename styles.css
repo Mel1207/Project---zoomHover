@@ -32,11 +32,12 @@ p.center {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
-    grid-column-gap: 15px;
+    grid-gap: 15px;
 }
 
 .image-container {
     background: #000;
+    overflow: hidden;
 }
 
 .image {
@@ -48,4 +49,5 @@ p.center {
 
 .image:hover {
     opacity: 1;
+    transform: scale(1.1);
 }
